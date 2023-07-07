@@ -1,0 +1,15 @@
+application:
+  list:
+    - plain: good
+      cipher: '{cipher}4ffef96df11b9e9ca7b33aa5ccd60b6ed8406ec5edb68618b2469208fceb2626'
+
+---
+
+application:
+  list:
+    - plain: updated
+      cipher: 'updated'
+spring:
+  config:
+    activate:
+      on-profile: decrypt
